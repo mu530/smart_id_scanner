@@ -1,10 +1,10 @@
 {
   "expo": {
     "name": "Scanner",
-    "slug": "Scanner",
+    "slug": "scanner",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/logo.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -21,10 +21,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.musemuliye.Scanner"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "90b4a30b-c1f4-4aed-995c-2c1d57146b9b"
+      }
+    },
+    "owner": "musemuliye"
   }
 }
